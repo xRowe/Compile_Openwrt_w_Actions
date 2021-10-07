@@ -5,7 +5,7 @@
 #cp -rf OpenClash/luci-app-openclash package/
 #rm -rf OpenClash
 
-# try to Compile the Driver for i350
+# try to Compile the Driver for i350, Kernel 5.4.142
 git reset --hard cdb022d3e1cc0a57d16fdfa013382431118a9559
 mkdir package/kernel/i350
 touch package/kernel/i350/Makefile
