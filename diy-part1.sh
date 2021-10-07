@@ -8,7 +8,8 @@
 # try to Compile the Driver for i350, Kernel 5.4.142
 git reset --hard cdb022d3e1cc0a57d16fdfa013382431118a9559
 mkdir package/kernel/i350
-touch package/kernel/i350/Makefile
+#touch package/kernel/i350/Makefile
+cp ../I350_Makefile package/kernel/i350/
 
 # Uncomment a feed source
 sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
