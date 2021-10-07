@@ -16,7 +16,7 @@ PKG_RELEASE:=1
 
 F_NAME:=igb-$(PKG_VERSION)
 PKG_SOURCE:=$(F_NAME).tar.gz
-PKG_SOURCE_URL:=https://versaweb.dl.sourceforge.net/project/e1000/igb%20stable/5.5.2/igb-5.5.2.tar.gz
+PKG_SOURCE_URL:=https://versaweb.dl.sourceforge.net/project/e1000/igb%20stable/5.5.2/
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)
 PKG_HASH:=476cdc662e6f29960849675574a704fa82732576df85b43b8a7afdcecc868a68
 
